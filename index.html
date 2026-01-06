@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bebook</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+    </head>
+    <body onload = "showModal()">
+
+        <div id ="modalbox">
+            <button id="Cross" onclick="closeModal()">x</button>
+           <p id="Cookies"> We use Cookies, please except them. Read 
+            <a href ="privacy.html">Privacy Policy</a></p> 
+           <button id = "Accept" onclick="closeModal()">Accept</button>
+        </div>
+
+        <button class="menu" id ="menuBtn" aria-pressed="false">☰</button>
+        <header>
+            <div class="header">
+                <div id="menuHeader">
+                    <h1>Bebook</h1>
+                    <button class="menu" id ="close" aria-pressed="false">x</button>
+                </div>
+            <nav>
+           <ul>
+            <li><a href="index.html">About us</a></li>
+            <li><a href ="lizenz.html">License</a></li>
+            <li><a href = "contact.html">Contact</a></li>
+           </ul>
+            </nav>
+            </div>
+        </header>
+        <main>
+            <h1 id ="title"> Bebook</h1>
+             <div class = "flex">
+                <div id="searchText">
+                    <h2 class ="thesis">Welcome to our platform "Bebook"! <br> Read what you <b style="color: chocolate;">want</b>, not what you <b>should</b></h2>
+                    <h2>What do you want to read?</h2>
+                    <div class="search-container">
+                        <label for="search" class="visually-hidden">Search books</label>
+                        <input id="search" type="text" placeholder="Search books..." class="search-input">
+
+                        <button class="search-btn" aria-label="Search"> 🔍</button>
+
+                    </div>
+                </div>
+                <img id = "preview" src="img/Shelf.jpg" alt="Buchbild">
+            </div>
+            <p class="license" id ="first">Designed by Freepik</p>
+            <div id = "background">
+            <blockquote class="quote"><b style="font-size: 100px; font-family: EB Garamond, serif;">”</b>If you don’t like to read, you haven’t found the right book.  <b style="font-size: 100px; font-family: EB Garamond, serif;"> „</b>
+                <footer>— J.K. Rowling</footer>
+            </blockquote>
+            </div>
+            <div class="flex" style="margin-left: 0;">
+               <img id = "decorations" src="img/Books.jpg" alt="Buchbild"> 
+               <div class ="aboutUs">
+               <h1 id ="title1" style="margin-top: 5%;"> About us</h1>
+                <p class="mainText"> We are a small, but nonetheless strong team of Bebooks. What's Bebook? A social medium where users can view different genres of books and get detailed information about a book, such as author, publication date, reviews. These can be visualised both by regular reviews (textual by ordinary people, as well as by (if available) video (YouTube, reels). In addition, you can also (with the consent of the users of course) create a map and see where and by whom this book is read.
+                    <br>
+                📍Klagenfurt, Österreich 
+                <br>
+                27 Employees 😎
+            </p>
+            </div>
+            </div>
+            <p class="license" id ="bookAbout" style="text-align: left; margin-left: 3%; margin-bottom: 5%;">Designed by Freepik</p>
+             <p class ="sideTitle " style = "margin-top:6%">Our trademark forms</p>
+              <p class ="sideTitle " style = "font-size: 20px; margin-top:2%; margin-bottom:0; color: chocolate;">1. Word-Graphic Mark</p>
+              <p class="markText">Our brand name rendered in EB Garamond typeface. The double "oo" in the center is styled the same way as glasses, because usually while reading a book or other text works most of the people need glasses.
+                Additionaly there is a book displayed near the letter "B", that symbolises the actual purpose of the app 
+              </p>
+              <img id = "logoBebook" src="img/Bebook.jpg" alt="Bildtext logo"> 
+              <p class ="sideTitle " style = "font-size: 20px; margin-top:2%; margin-bottom:0; color: chocolate;">2. Sound mark</p>
+              <p class="markText"> What do we hear, when we read the physical book? Paper! Well, paper-connected processes of cource likewise turning pages, opening the book, searching for the right page
+                . So our sound mark is the sound of turning the page!
+              </p>
+              <div class="brand-sound">
+                <audio controls>
+                    <source src="Turn the page.mp4" type="audio/mp4">
+                     Your browser does not support the audio element.
+                    </audio></div>
+                    <p class ="sideTitle " style = "font-size: 20px; margin-top:2%; margin-bottom:0; color: chocolate;">3. Color mark</p>
+                    <p class="markText"> The website and originally our app uses the following colors: <br> <br> <b>1. chocolate</b></p>
+                    <div style = "height: 2%; background: chocolate; margin-bottom: 5%;"></div>
+                    <p class="markText"><b>2. #302204</b> </p>
+                    <div style = "height: 2%; background:#302204; margin-bottom: 5%;"></div>
+                    <p class="markText"><b>3. #dec3af</b> </p>
+                    <div style = "height: 2%; background:#dec3af; margin-bottom: 0;"></div>
+                    <p class="markText"> We believe, that the truly colors associated with books are chocolate. beige and brown </p>
+                     <p class ="sideTitle " style = "margin-top:6%">Nizza Classification</p>
+                     <p class="markText" style="text-align: left;">Bebook is registered under the following international classes to ensure full legal protection of our software services:<br>
+                    1.Class 9: Downloadable software applications for mobile devices and computers; downloadable digital books.<br>
+                2.Class 38: Providing access to online forums and social media platforms for book reviews and reader discussions.<br>
+            3.Class 42: Software as a Service (SaaS) featuring platforms for visualizing geographical reader data and hosting video reviews.<br></p>
+            <p class ="sideTitle " style = "margin-top:6%">Legal Clearance & Brand Safety</p>
+            <p class="markText" style="text-align: left;">We ensured that our brand did not infringe on existing trademarks by adhering to the following:<br>
+            1. <b>Word Choice</b>: "Bebook" is a distinct, neological brand name. A search in TMview and EUIPO confirms no identical trademarks in the software or social media sectors in Austria.<br>
+            2.<b>Visual Integrity</b>: All icons and graphics are original or used under strict license from Icons8, Freepik, and Unsplash, with appropriate credits documented in our index.html(main page) and license page<br>
+            3.<b>Positioning</b>: Our layout and brand placement are unique to our specific "reader map" and "video review" niche, distinguishing us from general competitors like Goodreads or Amazon.
+        </p>
+            </main>
+            <p class ="sideTitle " style="margin-top: 20%;"><br>Interested in the book? Well, we have s-thing for you!</p>
+            <div class="bookReview">
+                <div style="width: 30%;">
+                    <img id = "bookBebook" src="img/Bebook book.jpg" alt="Buch zur Rezension">
+                    <p class="license" style="text-align: center;">Created by Unsplash</p>
+                </div>
+                <div class = "bookText">
+                    <h1 class = "heading">The Chronicles of Narnia</h1>
+                    <blockquote class = "bookQuote"><b style="font-size: 30px;">“</b>Once a king or queen of Narnia, always a king or queen of Narnia.<b style="font-size: 30px;">”</b>
+                <footer>— C. S. Lewis, The Chronicles of Narnia</footer>
+            </blockquote>
+                    <p class = "description">Description: Four children step through a wardrobe into Narnia — a land frozen in eternal winter, where a great destiny awaits them...<br>
+                    </p>
+                    <div class="rating" aria-label="Rating: 4 out of 5 stars">
+                        <span aria-hidden="true">★★★★☆</span>
+                    </div>
+                <h4 id ="friends">Reading frinds</h4>
+                </div>
+            </div>
+            <p class ="sideTitle ">Heard enough ?</p>
+            <div class="video-meme">
+                <video width="480" video autoplay loop muted playsinline aria-label="Funny meme video">
+                    <track kind="captions" srclang="en" label="No audio">
+                    <source src="img/meme.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="download-buttons">
+                <a href="#" class="btn btn-mac" role="button">
+                    ⌘ Download for macOS
+                </a>
+                <a href="#" class="btn btn-windows" role="button">
+                    🖥️ Download for Windows/Linux
+                </a>
+            </div>
+        <footer id = "bottom">
+            <h4 id = "footer">Bebook</h4>
+            <hr>
+                <nav aria-label="Footer navigation">
+                    <ul class="footer-links">
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="lizenz.html">License</a></li>
+                        <li><a href="#books">Books(not active)</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="Terms.html">Terms of Use </a></li>
+                    </ul>
+                </nav>
+            <div class="icons">
+                <p class="footer-copy">
+                     © 2026 Bebook. All rights reserved.
+                </p>
+                <nav aria-label="Social media">
+                     <ul class="social-links">
+                        <li> 
+                            <a href="#" class="social-link">
+                                <img src="img/instagram.png" alt="Instagram link" aria-hidden="true">
+                                <span class="visually-hidden">Instagram</span>
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="#" class="social-link">
+                                <img src="img/facebook.png" alt="Facebook link" aria-hidden="true">
+                                <span class="visually-hidden">Facebook</span>
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="#" class="social-link">
+                                <img src="img/phone.png" alt="Phone Call link" aria-hidden="true">
+                                <span class="visually-hidden">Call</span>
+                            </a>
+                        </li>
+                     </ul>
+                </nav>
+            </div>
+            <p class="icon-license">
+                <a href="https://icons8.com/icon/118466/facebook" target="_blank" rel="noopener">
+                    Facebook Logo
+                </a>
+                <a href="https://icons8.com/icon/jShwZ2RCyPSO/phone" target="_blank" rel="noopener">
+                    Phone
+                </a>
+                <a href="https://icons8.com/icon/ZOFC5nSr215Y/instagram" target="_blank" rel="noopener">
+                Instagram
+                </a>
+                icons by
+                <a href="https://icons8.com" target="_blank" rel="noopener">
+                    Icons8
+                </a>
+             </p>
+        </footer>
+    </body>
+    <script src="script.js" ></script>
+</html>
